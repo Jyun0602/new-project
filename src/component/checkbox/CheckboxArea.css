@@ -1,0 +1,77 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+#filters-header {
+    font-family: GenSenRounded-B;
+    display: flex;
+}
+
+.filters {
+    /* border: 1px solid black; */
+    padding: 10px;
+    position: sticky;
+    top: 50px;
+
+
+    header {
+        font-weight: 400;
+    }
+}
+
+.filters-category {
+    font-family: GenSenRounded-M;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.areas ul {
+    font-family: GenSenRounded-M;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.areas {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-x: hidden;
+}
+
+
+.area {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 50px 0 50px;
+}
+
+.area>img {
+    /* height: 200px; */
+    /* object-fit: contain; */
+    border-radius: 20px;
+}
+
+.area>.area-details {
+    font-family: GenSenRounded-M;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+
+
+    /* .area-category {} */
+
+    /* .area-price {} */
+}
+
+/* .area header {
+    font-weight: 400;
+} */

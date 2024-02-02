@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>area</title>
+    <!-- <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="../src/style.css">
+  </head>
+  <body>
+    <!-- 下雪效果 -->
+    <canvas id="canvas"></canvas>
+
+
+
+
+    <!-- 選擇地區-日本 -->
+    <!-- 按鈕區button -->
+    <section id="area">
+      <!-- <div class="box">  -->
+      <!-- div.btn*5 -->
+      <!-- <div class="btn">
+          <img src=".//images/area/群馬縣.svg" alt="連結至群馬縣" />
+        </div>
+        <div class="btn">
+          <img src="./images/area/新瀉縣.svg" alt="連結至新瀉縣" />
+        </div>
+        <div class="btn">
+          <img src="./images/area/長野縣.svg" alt="連結至長野縣" />
+        </div>
+      </div>  -->
+    </section>
+    <!-- compare -->
+
+    <!-- div>div>h4+p -->
+    <!-- ul>li*4 -->
+    <section id="compare">
+      <!-- <figure class="bg2">
+        <img src="./images/area/Compare Bg.svg" alt="" />
+      </figure> -->
+
+      <!-- 群馬縣 -->
+      <!-- 萬座溫泉滑雪場 -->
+      <!-- 下拉式選單 -->
+    <main class="card">
+      <select id="dropdown" onchange="select()">
+        <option value="">請選擇滑雪場</option>
+        <option value="pic_1">萬座溫泉滑雪場</option>
+        <option value="pic_2">丸沼高原滑雪場</option>
+        <option value="pic_3">上越國際滑雪場</option>
+        <option value="pic_4">岩原滑雪場</option>
+        <option value="pic_5">菅平高原滑雪場</option>
+        <option value="pic_6">輕井澤王子大飯店滑雪場</option>
+      </select>
+      <h4 id="show"></h4>
+
+      <div class="place1">
+        <figure class="mask">
+          <img id="area_images" src="" alt="萬座溫泉滑雪場" />
+        </figure>
+        <span class="place-title1">萬座溫泉</span>
+        <span class="place-title2">滑雪場</span>
+        <figure class="qr-code">
+          <img src=".//images/area/qr-code.svg" alt="" />
+        </figure>
+        <hr />
+        <div class="site1">
+          <h4>特色</h4>
+          <p>
+            在海拔1,994公尺的山頂，可以俯瞰壯麗的富士山風景。步行至附設的飯店只需短短一分鐘，享受溫泉和滑雪的樂趣。
+          </p>
+          <ul class="ticket">
+            <li>纜車票</li>
+            <li>¥5500</li>
+            <li>降雪量</li>
+            <li>40cm</li>
+          </ul>
+        </div>
+      </div>
+
+      <select id="dropdown2" onchange="select()">
+        <option value="">請選擇滑雪場</option>
+        <option value="pic_1">萬座溫泉滑雪場</option>
+        <option value="pic_2">丸沼高原滑雪場</option>
+        <option value="pic_3">上越國際滑雪場</option>
+        <option value="pic_4">岩原滑雪場</option>
+        <option value="pic_5">菅平高原滑雪場</option>
+        <option value="pic_6">輕井澤王子大飯店滑雪場</option>
+      </select>
+      <h4 id="show"></h4>
+
+      
+      </script>
+      <!-- 卡片2 -->
+      <!-- <div class="place2">
+        <figure class="mask">
+          <img id="area_images" src="" alt="萬座溫泉滑雪場" />
+        </figure>
+        <span class="place-title1">萬座溫泉</span>
+        <span class="place-title2">滑雪場</span>
+        <figure class="qr-code">
+          <img src=".//images/area/qr-code.svg" alt="" />
+        </figure>
+        <hr />
+        <div class="site1">
+          <h4>特色</h4>
+          <p>
+            在海拔1,994公尺的山頂，可以俯瞰壯麗的富士山風景。步行至附設的飯店只需短短一分鐘，享受溫泉和滑雪的樂趣。
+          </p>
+          <ul class="ticket">
+            <li>纜車票</li>
+            <li>¥5500</li>
+            <li>降雪量</li>
+            <li>40cm</li>
+          </ul>
+        </div>
+      </div> -->
+    </main>
+      <!-- 丸沼高原滑雪場 -->
+      <!-- <div class="place2">
+        <figure class="mask">
+          <img id="area_images" src="" alt="丸沼高原滑雪場" />
+        </figure>
+        <div>
+          <div>
+            <h4>特色</h4>
+            <p></p>
+          </div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> -->
+
+      <!-- 新瀉縣 -->
+      <!-- 上越國際滑雪場 -->
+      <!-- <div class="">
+        <figure><img src="" alt="上越國際滑雪場" /></figure>
+        <div>
+          <div>
+            <h4>特色</h4>
+            <p>佔地1000萬平方米，配置25條基本道和22條變化豐富的雪道，提供多樣滑道難度，適合各級玩家。</p>
+          </div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> 
+
+      <岩原滑雪場 -->
+      <!-- <div class="">
+        <figure><img src="" alt="岩原滑雪場" /></figure>
+        <div>
+          <div>
+            <h4>特色</h4>
+            <p>以寬闊平敞的坡度為特色，適合初學者的滑雪場，且有長達634公尺的雪橇場和兒童公園設施，深受帶有小孩的家庭喜愛。</p>
+          </div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> -->
+
+      <!-- 長野縣 -->
+      <!-- 菅平高原滑雪場 -->
+      <!-- <div class="">
+        <figure><img src="" alt="菅平高原滑雪場" /></figure>
+        <div>
+          <div>
+            <h4>特色</h4>
+            <p>是區域最大規模的兒童樂園，雪道寬廣且坡度平緩，有多項滑雪課程提供報名，適合初學者滑雪。</p>
+          </div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li> 
+          <li></li>
+        </ul>
+      </div> -->
+
+      <!-- 輕井澤王子大飯店滑雪場 -->
+      <!-- <div class="">
+        <figure><img src="" alt="輕井澤王子大飯店滑雪場" /></figure>
+        <div>
+          <div>
+            <h4>特色</h4>
+            <p></p>
+          </div>
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> -->
+    </section>
+
+    
+    <!-- <script src="./js/App.js"></script>
+    <script src="./js/menu2.js"></script> -->
+   
+
+
+      <!-- 引入 React 和 ReactDOM 的 JavaScript 檔案 -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+  <!-- 引入你的 React 組件的 JavaScript 檔案 -->
+  <script src="../src/App.js"></script>
+
+  <!-- 在這裡使用 ReactDOM.render() 渲染你的 React 組件 -->
+  <script>
+    ReactDOM.render(
+      React.createElement(App), // 將 App 組件包裝成 React 元素
+      document.getElementById('root') // 將渲染結果插入到 id 為 root 的 HTML 元素中
+    );
+  </script>
+
+  </body>
+</html>

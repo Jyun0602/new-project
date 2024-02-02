@@ -1,0 +1,49 @@
+// react 網站教學
+// import React, { useState } from "react";
+// // import { CheckBox, Text, StyleSheet, View } from "react-native";
+
+// const CheckboxArea = () => {
+//   const [isSelected, setSelection] = useState(false);
+
+//   return (
+//     <View>
+//       <View>
+//         <CheckBox value={isSelected} onValueChange={setSelection} />
+//         <Text>選擇</Text>
+//       </View>
+//       <Text>Is CheckBox selected: {isSelected ? "指定" : "all"}</Text>
+//       <Text>
+//         {isSelected ? (
+//           <img src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"></img>
+//         ) : (
+//           <img src=" https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"></img>
+//         )}
+//       </Text>
+//     </View>
+//   );
+// };
+// import Pic1 from "/images/pic_1.jpg";
+// import Pic2 from "/images/pic_2.jpg";
+
+// import React, { useState } from "react";
+
+// const CheckboxArea = () => {
+//   const [isSelected, setSelection] = useState(false);
+
+//   return (
+//     <div>
+//       <div>
+//         <input
+//           type="checkbox"
+//           checked={isSelected}
+//           onChange={(e) => setSelection(e.target.checked)}
+//         />
+//         <label>選擇</label>
+//       </div>
+//       <p>Is CheckBox selected: {isSelected ? "指定" : "all"}</p>
+//       {/* <img src={isSelected ? { Pic1 } : { Pic2 }} /> */}
+//     </div>
+//   );
+// };
+
+// export default CheckboxArea;

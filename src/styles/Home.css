@@ -1,0 +1,132 @@
+#index {
+    background-size: cover;
+    background-position: center;
+    background-image: url(/public/images/index_bg.svg);
+    background-attachment: fixed;
+
+}
+
+.btn1 {
+    position: relative;
+    width: 615px;
+    height: 458px;
+    margin: 293px 0 0 0px
+}
+
+.btn2 {
+    width: 110px;
+    height: 160px;
+    margin: -15% 0 0 65%;
+}
+
+.btn3 {
+    width: 297px;
+    height: 396px;
+    margin: -720px 0 0 690px;
+}
+
+.btn4 {
+    width: 320px;
+    height: 360px;
+    margin: -30px 0 0 75%;
+}
+
+/* 文字懸浮 */
+section a {
+    position: relative;
+}
+
+/* textBtn1 */
+section .textBtn1 {
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    height: 200px;
+    /* font-size: 44px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    transition: .35s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+section .textBtn1:hover {
+    opacity: 1;
+}
+
+/* textBtn2 */
+section .textBtn2 {
+    position: absolute;
+    z-index: 999;
+    width: 160px;
+    height: 200px;
+    transition: .35s;
+    opacity: 0;
+
+}
+
+section .textBtn2:hover {
+    opacity: 1;
+}
+
+/* textBtn3 */
+section .textBtn3 {
+    position: absolute;
+    z-index: 999;
+    width: 200px;
+    height: 200px;
+    transition: .35s;
+    opacity: 0;
+    margin-top: 100px;
+
+}
+
+section .textBtn3:hover {
+    opacity: 1;
+}
+
+/* textBtn4 */
+section .textBtn4 {
+    position: absolute;
+    z-index: 999;
+    width: 160px;
+    height: 200px;
+    transition: .35s;
+    opacity: 0;
+    /* margin-left: 100px; */
+
+}
+
+section .textBtn4:hover {
+    opacity: 1;
+}
+
+
+/* 放大 */
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+    transform: scale(1.1);
+}
+
+.btn1:active,
+.btn2:active,
+.btn3:active,
+.btn4:active {
+    transform: scale(0.9);
+}
+
+/* .btn1:hover::before {
+    position: absolute;
+} */

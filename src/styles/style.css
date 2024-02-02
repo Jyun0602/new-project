@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: GenSenRounded-B;
+    src: url(../webfonts/GenSenRounded-B.ttc);
+}
+
+@font-face {
+    font-family: GenSenRounded-M;
+    src: url(../webfonts/GenSenRounded-M.ttc);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*網頁常用設定*/
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family:
+        /*西文*/
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Ubuntu,
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        /*中文*/
+        "Noto Sans TC",
+        "蘋方-繁",
+        "PingFang TC",
+        "黑體-繁",
+        "Heiti TC",
+        "微軟正黑體",
+        "Microsoft JhengHei",
+        sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: transparent;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: block;
+    height: 100vh;
+    top: 100px;
+    padding: 10vh 0;
+    /* 自動抓取視窗高度 */
+    /* padding-top: 100px; */
+}
+
+h3,
+h4 {
+    font-family: GenSenRounded-B;
+}
+
+p {
+    font-family: GenSenRounded-M;
+}
+
+/* 背景下雪 */
+/* #canvas {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 100000;
+} */

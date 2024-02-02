@@ -1,0 +1,52 @@
+.btn-o {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #000;
+    background-color: transparent;
+    position: relative;
+    transition: all .3s linear;
+}
+
+.btn-o>p {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-o::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+}
+
+.btn-o::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all .3s ease;
+}
+
+.btn-o:hover::before,
+.btn-o:hover::after {
+    width: 100%;
+    height: 100%;
+}
