@@ -1,0 +1,40 @@
+p {
+    line-height: 1.5;
+    font-family: GenSenRounded-M;
+}
+
+.intro-all {
+    margin-bottom: 20px;
+}
+
+.official a {
+    font-family: GenSenRounded-M;
+    /* margin: -18px 0px 0px 250px; */
+}
+
+.text-box2 h4 {
+    font-family: GenSenRounded-B;
+    /* margin: 50px 0 0 150px; */
+}
+
+.moreinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-left: 150px; */
+}
+
+.col2 {
+    margin-left: -50px;
+}
+
+.content-box {
+    position: relative;
+}

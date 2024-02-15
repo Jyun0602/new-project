@@ -185,7 +185,7 @@ img {
 section {
     display: block;
     height: 100vh;
-    top: 100px;
+    /* top: 100px; */
     padding: 10vh 0;
     /* 自動抓取視窗高度 */
     /* padding-top: 100px; */
@@ -211,3 +211,12 @@ p {
     pointer-events: none;
     z-index: 100000;
 } */
+
+/* 隱藏滾動條 */
+::-webkit-scrollbar {
+    display: none;
+}
+
+#root {
+    overflow-x: hidden;
+}

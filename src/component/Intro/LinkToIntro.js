@@ -41,7 +41,7 @@ import { Link } from "react-router-dom";
 function LinkToIntro() {
   return (
     <div>
-      <Link to="/Intro/Intro1">
+      <Link to="/AreaPage/Intro1">
         <img src={require("../checkbox/pic_1.jpg")} alt="Pic1" />
       </Link>
       <Link to="/Intro/Intro2">

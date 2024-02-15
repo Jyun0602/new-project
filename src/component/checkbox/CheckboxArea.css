@@ -1,77 +1,106 @@
-html,
-body {
-    overflow-x: hidden;
+.App {
+    height: 100vh;
+    overflow-y: scroll;
+
+
 }
 
-#filters-header {
+.all-checkbox {
     font-family: GenSenRounded-B;
-    display: flex;
+    color: #20395C;
+    position: absolute;
+    top: 60px;
+    /* margin-left: 52px; */
+    width: 100%;
+    height: 100%;
+
+    padding: 35px;
+    background-color: #BBD0EB;
+
 }
 
-.filters {
-    /* border: 1px solid black; */
-    padding: 10px;
-    position: sticky;
-    top: 50px;
-
-
-    header {
-        font-weight: 400;
-    }
+.allinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* position: relative; */
+    /* top: 120px */
+    background-color: #BBD0EB;
 }
 
-.filters-category {
-    font-family: GenSenRounded-M;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.areas ul {
-    font-family: GenSenRounded-M;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.content-box {
+    position: relative;
 }
 
 .areas {
-    display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(3, 1fr);
-    overflow-x: hidden;
+    /* gap: 50px; */
+    /* margin-top: 50px; */
+    width: 500px;
+    display: block;
+    margin-bottom: 50px;
+
+
+}
+
+.areaimg {
+    width: 500px;
+    height: 300px;
 }
 
 
-.area {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    position: relative;
-    margin: 0px 50px 0 50px;
+
+.areamask {
+    mask-image: url(/public/images/areamask2.png);
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    width: 500px;
+    height: 300px;
+
+    /* margin-top: -44px; */
+
 }
 
-.area>img {
-    /* height: 200px; */
-    /* object-fit: contain; */
-    border-radius: 20px;
+
+
+.areatitle {
+    font-family: GenSenRounded-B;
+    color: #20395C;
+    margin-left: -2px;
+    font-size: 25px;
+    margin-top: -10px;
 }
 
-.area>.area-details {
-    font-family: GenSenRounded-M;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    text-align: center;
-    line-height: 1.5;
-    justify-content: center;
-    align-items: center;
+.areacategory {
+    display: inline-block;
+    margin-left: 2px;
 
-
-    /* .area-category {} */
-
-    /* .area-price {} */
+    color: #5265C4;
+    border: 1px solid #5265C4;
+    border-radius: 5px;
+    background-color: #FEF5D4;
 }
 
-/* .area header {
-    font-weight: 400;
-} */
+.infolist {
+    color: #20395C;
+    /* margin: -30px -6px 0 -251px; */
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
