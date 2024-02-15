@@ -7,7 +7,7 @@ const SrcPage = () => {
       <section className="piclist">
         <div>
           <figure className="pic">
-            <img src={`../../images/pic_1.jpg`} />
+            <img src={`../../images/pic_1.jpg`} alt="萬座溫泉滑雪場" />
           </figure>
           <h3>萬座溫泉滑雪場</h3>
           <p>
@@ -17,7 +17,7 @@ const SrcPage = () => {
         </div>
         <div>
           <figure className="pic">
-            <img src={`../../images/pic_2.jpg`} />
+            <img src={`../../images/pic_2.jpg`} alt="丸沼高原滑雪場" />
           </figure>
           <h3>丸沼高原滑雪場</h3>
           <p>
@@ -27,7 +27,7 @@ const SrcPage = () => {
         </div>
         <div>
           <figure className="pic">
-            <img src={`../../images/pic_3.jpg`} />
+            <img src={`../../images/pic_3.jpg`} alt="上越國際滑雪場" />
           </figure>
           <h3>上越國際滑雪場</h3>
           <p>
@@ -37,7 +37,7 @@ const SrcPage = () => {
         </div>
         <div>
           <figure className="pic">
-            <img src={`../../images/pic_4.jpg`} />
+            <img src={`../../images/pic_4.jpg`} alt="岩原滑雪場" />
           </figure>
           <h3>岩原滑雪場</h3>
           <p>
@@ -47,7 +47,7 @@ const SrcPage = () => {
         </div>
         <div>
           <figure className="pic">
-            <img src={`../../images/pic_5.jpg`} />
+            <img src={`../../images/pic_5.jpg`} alt="菅平高原滑雪場" />
           </figure>
           <h3>菅平高原滑雪場</h3>
           <p>
@@ -57,7 +57,7 @@ const SrcPage = () => {
         </div>
         <div>
           <figure className="pic">
-            <img src={`../../images/pic_6.jpg`} />
+            <img src={`../../images/pic_6.jpg`} alt="輕井澤王子大飯店滑雪場" />
           </figure>
           <h3>輕井澤王子大飯店滑雪場</h3>
           <p>
