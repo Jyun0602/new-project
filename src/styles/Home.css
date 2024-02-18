@@ -17,7 +17,7 @@
     /* position: relative; */
     background-size: cover;
     background-position: center;
-    background-image: url(/public/images/index_bg.svg);
+    background-image: url(../images/index_bg.svg);
     background-attachment: fixed;
     overflow-y: hidden;
 

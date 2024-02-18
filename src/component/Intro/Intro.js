@@ -2,6 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../../styles/Intro.css";
+import pic1Image from "../../images/pic_1.jpg";
 // import { type } from "@testing-library/user-event/dist/type";
 // import { useEffect, useState } from "react";
 
@@ -12,13 +13,13 @@ const Intro = () => {
   //   let imgSrc;
   // const [content, setContent] = useState(null);
 
-  if (id == "1") {
+  if (id === "1") {
     content = (
       <main>
         <section className="text-box1">
           {" "}
           <img
-            src={`../../images/pic_1.jpg`}
+            src={pic1Image}
             // style={{ width: "525px", height: "365px" }}
             // className=""
           />
@@ -72,24 +73,24 @@ const Intro = () => {
                 width="400"
                 height="300"
                 style={{ border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
         </section>
       </main>
     );
-  } else if (id == "2") {
+  } else if (id === "2") {
     content = "丸沼高原滑雪場";
-  } else if (id == "3") {
+  } else if (id === "3") {
     content = "上越國際滑雪場";
-  } else if (id == "4") {
+  } else if (id === "4") {
     content = "岩原滑雪場";
-  } else if (id == "5") {
+  } else if (id === "5") {
     content = "菅平高原滑雪場";
-  } else if (id == "6") {
+  } else if (id === "6") {
     content = "輕井澤王子大飯店滑雪場";
   }
   return (
@@ -101,44 +102,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
-//篩等級和地區
-// import React from "react";
-// import { useParams } from "react-router-dom";
-// import "../../styles/Intro.css";
-
-// const Intro = () => {
-//   const { id } = useParams();
-//   let content;
-//   if (id == 1) {
-//     content = (
-//       <main>
-//         <section className="text-box1">
-//           <img src={<img src={`../../images/pic_1.jpg`} />} alt="pic1" />{" "}
-//           {/* 使用导入的图片资源 */}
-//         </section>
-//         <section className="text-box2">
-//           <div className="col">
-//             <h4>地址</h4>
-//             <p>群馬縣東郡嬬戀村萬座溫泉</p>
-//             {/* 其他詳細內容 */}
-//           </div>
-//           {/* 其他詳細內容 */}
-//         </section>
-//       </main>
-//     );
-//   } else if (id == 2) {
-//     content = <div>丸沼高原滑雪場</div>;
-//   } else if (id == 3) {
-//     content = <div>上越國際滑雪場</div>;
-//   } else if (id == 4) {
-//     content = <div>岩原滑雪場</div>;
-//   } else if (id == 5) {
-//     content = <div>菅平高原滑雪場</div>;
-//   } else if (id == 6) {
-//     content = <div>輕井澤王子大飯店滑雪場</div>;
-//   }
-//   return <div>{content}</div>;
-// };
-
-// export default Intro;

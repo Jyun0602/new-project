@@ -1,59 +1,18 @@
-// 加入按鈕切換頁面
-// import React, { useState } from "react";
-// import Accessories from "../component/Accessories";
-// import Outer from "../component/Outer";
-
-// function EquipmentPage() {
-//   const [selectedItem, setSelectedItem] = useState(null);
-
-//   return (
-//     <div>
-//       <button
-//         onClick={() => setSelectedItem("accessories")}
-//         className="shape-ex11"
-//       >
-//         配件
-//       </button>
-//       <button onClick={() => setSelectedItem("outer")} className="btn-o">
-//         外套
-//       </button>
-
-//       {selectedItem === "accessories" && <Accessories />}
-//       {selectedItem === "outer" && <Outer />}
-//       {/* 最裡層 */}
-
-//       <section id="equipment1">
-//         <figure class="title1">
-//           <img src="./images/equipment-text.svg" alt="裝備介紹" />
-//         </figure>
-//         <figure class="people-ski">
-//           <img src="./images/equipment-people-ski.svg" alt="雙板人物" />
-//         </figure>
-//         <figure class="people-sb">
-//           <img src="./images/equipment-people-sb.svg" alt="單板人物" />
-//         </figure>
-//         <div class="inside">
-//           <h4>保暖衣物</h4>
-//           <p class="p1">
-//             建議內層選擇具吸濕排汗材質的衣物，不需選擇發熱衣的材質，
-//             <br />
-//             防止運動時流汗導致衣物濕掉太冷。
-//           </p>
-//         </div>
-//         <div class="socks">
-//           <h4>長襪</h4>
-//           <p class="p2">穿著長襪有助於減輕小腿與滑雪鞋之間的直接磨擦。</p>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// }
-
-// export default EquipmentPage;
-
 import React from "react";
 import "../styles/EquipmentPage.css";
 import ScrollToTopButton from "../component/ScrollToTop/ScrollToTopButton";
+import equipmentTextImage from "../images/equipment-text.svg";
+import equipmentPeopleSkiImage from "../images/equipment-people-ski.svg";
+import equipmentPeopleSbImage from "../images/equipment-people-sb.svg";
+import textClothImage from "../images/text-cloth.svg";
+import OuterSkiImage from "../images/Outer-ski.svg";
+import OuterSbImage from "../images/Outer-sb.svg";
+import textAccessoriesImage from "../images/text-accessories.svg";
+import AccessoriesSkiImage from "../images/Accessories-ski.svg";
+import AccessoriesSbImage from "../images/Accessories-sb.svg";
+import textToolImage from "../images/text-tool.svg";
+import toolSkiImage from "../images/tool-ski.svg";
+import toolSbImage from "../images/tool-sb.svg";
 
 const EquipmentPage = () => {
   return (
@@ -62,13 +21,13 @@ const EquipmentPage = () => {
 
       <section id="equipment1">
         <figure className="title1">
-          <img src="./images/equipment-text.svg" alt="裝備介紹" />
+          <img src={equipmentTextImage} alt="裝備介紹" />
         </figure>
         <figure className="people-ski">
-          <img src="./images/equipment-people-ski.svg" alt="雙板人物" />
+          <img src={equipmentPeopleSkiImage} alt="雙板人物" />
         </figure>
         <figure className="people-sb">
-          <img src="./images/equipment-people-sb.svg" alt="單板人物" />
+          <img src={equipmentPeopleSbImage} alt="單板人物" />
         </figure>
         <div className="e-inside">
           <div className="inside">
@@ -90,13 +49,13 @@ const EquipmentPage = () => {
 
       <section id="equipment2">
         <figure className="title2">
-          <img src="./images/text-cloth.svg" alt="雪衣" />
+          <img src={textClothImage} alt="雪衣" />
         </figure>
         <figure className="people-ski">
-          <img src="./images/Outer-ski.svg" alt="雙板人物" />
+          <img src={OuterSkiImage} alt="雙板人物" />
         </figure>
         <figure className="people-sb">
-          <img src="./images/Outer-sb.svg" alt="單板人物" />
+          <img src={OuterSbImage} alt="單板人物" />
         </figure>
         <div className="e-outer">
           <div className="outer">
@@ -122,13 +81,13 @@ const EquipmentPage = () => {
 
       <section id="equipment3" className="page3-box">
         <figure className="title3">
-          <img src="./images/text-accessories.svg" alt="配件" />
+          <img src={textAccessoriesImage} alt="配件" />
         </figure>
         <figure className="people-ski">
-          <img src="./images/Accessories-ski.svg" alt="雙板人物" />
+          <img src={AccessoriesSkiImage} alt="雙板人物" />
         </figure>
         <figure className="people-sb">
-          <img src="./images/Accessories-sb.svg" alt="單板人物" />
+          <img src={AccessoriesSbImage} alt="單板人物" />
         </figure>
         <div className="e-acc">
           <div className="helmet">
@@ -172,13 +131,13 @@ const EquipmentPage = () => {
       {/* 雪具  */}
       <section id="equipment4">
         <figure className="title4">
-          <img src="./images/text-tool.svg" alt="雪具" />
+          <img src={textToolImage} alt="雪具" />
         </figure>
         <figure className="people-ski2">
-          <img src="./images/tool-ski.svg" alt="雙板人物" />
+          <img src={toolSkiImage} alt="雙板人物" />
         </figure>
         <figure className="people-sb2">
-          <img src="./images/tool-sb.svg" alt="單板人物" />
+          <img src={toolSbImage} alt="單板人物" />
         </figure>
 
         <div className="e-tools">

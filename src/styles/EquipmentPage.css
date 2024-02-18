@@ -4,7 +4,7 @@
 #equipment4 {
     background-size: cover;
     background-position: center;
-    background-image: url(/public/images/equipment-Bg.svg);
+    background-image: url(../images/equipment-Bg.svg);
     background-attachment: fixed;
 }
 
@@ -576,14 +576,17 @@ main {
 @media(max-width:640px) {
 
     .e-inside {
-        margin: -626px 0 0 53px;
+        position: absolute;
+        margin-left: 53px;
+        top: 600px;
     }
 
     .people-ski {
         position: absolute;
         width: 95px;
-        /* margin: 127px 0 0 282px; */
-        bottom: -168px;
+        height: 300px;
+        margin: 451px 0 0 282px;
+        bottom: auto;
         right: 215px;
         z-index: 999;
     }
@@ -591,9 +594,11 @@ main {
     .people-sb {
         position: absolute;
         width: 83px;
-        margin: -525px 0px 0px 465px;
-        bottom: -168px;
-        right: 69px;
+        height: 300px;
+        margin-top: 460px;
+        bottom: auto;
+        right: 117px;
+        z-index: 999;
     }
 
     /* p2 */
@@ -610,7 +615,8 @@ main {
 
     .title3 {
         position: absolute;
-        margin: -128px 0px -583px 70px;
+        left: -54px;
+        top: 183px;
     }
 
     .e-acc {
@@ -625,37 +631,43 @@ main {
 
     /* p4 */
     .title4 {
-        width: 160px;
-        height: 40px;
-        margin: 61px 0px 0px -24px;
-        /* margin: 586px 0px -583px 70px; */
+        position: absolute;
+        z-index: 999;
+        /* width: 160px; */
+        /* height: 40px; */
+        /* margin: 528px 0px -583px 70px !important; */
+        margin-top: 706px !important;
     }
 
     .people-ski2 {
         position: absolute;
-        bottom: 0;
+        /* bottom: auto; */
         z-index: 999;
+        /* left: 122px; */
+        margin-top: 497px;
         width: 169px;
-        /* height: 400px; */
-        /* margin-left: 230px; */
     }
 
     .people-sb2 {
         position: absolute;
         z-index: 999;
         width: 170px;
-        /* height: 400px; */
-        margin: 2px 0px 0px 455px;
-        /* margin: -525px 0px 0px 354px; */
-        bottom: -122px;
+        height: 300px;
+        /* margin: 442px 0px 0px 402px; */
+        bottom: -2600px;
+        right: 206px;
+
     }
 
     .e-tools {
         position: absolute;
         display: flex;
         flex-direction: column;
-        margin: 43px 0 0 38px;
-        /* margin: -570px 0 0 645px; */
+        /* margin-top: 48px; */
+        margin: -61px 0 0 38px;
+        /* right: 89px; */
+        /* bottom: auto !important; */
+
     }
 
     .page3-box {

@@ -16,13 +16,13 @@ function Outer() {
       {myNumber === 0 ? (
         <section id="equipment1">
           <figure class="title1">
-            <img src="./images/equipment-text.svg" alt="裝備介紹" />
+            <img src="../images/equipment-text.svg" alt="裝備介紹" />
           </figure>
           <figure class="people-ski">
-            <img src="./images/equipment-people-ski.svg" alt="雙板人物" />
+            <img src="../images/equipment-people-ski.svg" alt="雙板人物" />
           </figure>
           <figure class="people-sb">
-            <img src="./images/equipment-people-sb.svg" alt="單板人物" />
+            <img src="../images/equipment-people-sb.svg" alt="單板人物" />
           </figure>
           <div class="inside">
             <h4>保暖衣物</h4>
@@ -42,13 +42,13 @@ function Outer() {
 
         <section id="equipment2">
           <figure class="title2">
-            <img src="./images/equipment-text.svg" alt="裝備介紹" />
+            <img src="../images/equipment-text.svg" alt="裝備介紹" />
           </figure>
           <figure class="people-ski">
-            <img src="./images/equipment-people-ski.svg" alt="雙板人物" />
+            <img src="../images/equipment-people-ski.svg" alt="雙板人物" />
           </figure>
           <figure class="people-sb">
-            <img src="./images/equipment-people-sb.svg" alt="單板人物" />
+            <img src="../images/equipment-people-sb.svg" alt="單板人物" />
           </figure>
           <div class="outer">
             <h4>外套</h4>

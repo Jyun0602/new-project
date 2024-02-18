@@ -1,6 +1,23 @@
 import React from "react";
 import "../styles/IntroPage.css";
 import ScrollToTopButton from "../component/ScrollToTop/ScrollToTopButton";
+import introTextImage from "../images/intro-text.svg";
+import introPic1Image from "../images/intro-pic1.jpg";
+import introBgImage from "../images/intro-bg.svg";
+import introSkiImage from "../images/intro-ski.jpg";
+import introSbImage from "../images/intro-sb.jpg";
+import p3JapanImage from "../images/p3-japan.svg";
+import p3LevelImage from "../images/p3-level.svg";
+import p3GreenImage from "../images/p3-green.svg";
+import p3RedImage from "../images/p3-red.svg";
+import p3BlackImage from "../images/p3-black.svg";
+import p4EuropeImage from "../images/p4-europe.svg";
+import p4LevelImage from "../images/p4-level.svg";
+import p4GreenCircleImage from "../images/p4-Green circle.svg";
+import p4BlueSquareImage from "../images/p4-Blue square.svg";
+import p4RedRectangleImage from "../images/p4-Red rectangle.svg";
+import p4BlackDiamondImage from "../images/p4-Black diamond.svg";
+import p4DoubleBlackDiamondImage from "../images/p4-Double black diamond.svg";
 const IntroPage = () => {
   return (
     <main className="App">
@@ -8,17 +25,13 @@ const IntroPage = () => {
       <section id="intro1">
         <div className="title">
           <div>
-            <img
-              className="logo"
-              src="./images/intro-text.svg"
-              alt="滑雪介紹"
-            />
+            <img className="logo" src={introTextImage} alt="滑雪介紹" />
           </div>
 
           <span className="title-intro">雪上的滑板運動</span>
 
           <figure className="title-intro">
-            <img src="./images/intro-pic1.jpg" alt="" />
+            <img src={introPic1Image} alt="" />
           </figure>
         </div>
         <hr />
@@ -41,7 +54,7 @@ const IntroPage = () => {
               </p>
             </div>
           </div>
-          <img src="./images/intro-bg.svg" alt="山" />
+          <img src={introBgImage} alt="山" />
         </figure>
       </section>
 
@@ -64,12 +77,12 @@ const IntroPage = () => {
         <div className="intro-pic">
           <figure className="intro-ski">
             <span className="text1">スキー</span>
-            <img src="./images/intro-ski.jpg" alt="雙板" />
+            <img src={introSkiImage} alt="雙板" />
           </figure>
           <figure className="intro-sb">
             <span className="page2-title2">單板</span>
             <span className="text2">スノーボード</span>
-            <img src="./images/intro-sb.jpg" alt="單板" />
+            <img src={introSbImage} alt="單板" />
           </figure>
         </div>
       </section>
@@ -79,44 +92,56 @@ const IntroPage = () => {
       <section id="level">
         {/* <img
           class="bg"
-          src="./images/introduction/second_page/介紹bg.svg"
+          src="../images/introduction/second_page/介紹bg.svg"
           alt="bg"
         /> */}
         <div className="pic-title1">
           <figure className="intro-title1">
-            <img src="./images/p3-japan.svg" alt="日本" />
+            <img src={p3JapanImage} alt="日本" />
           </figure>
           <figure className="intro-title1-2">
-            <img src="./images/p3-level.svg" alt="雪道分級" />
+            <img src={p3LevelImage} alt="雪道分級" />
           </figure>
         </div>
         <div className="level-text">
           <div className="level-intro">
             <figure className="g1">
-              <img src="./images/p3-green.svg" alt="綠線" />
+              <img src={p3GreenImage} alt="綠線" />
             </figure>
             <h3>綠線 初級雪道</h3>
             <p className="intro-jp">
-              初學者建議選擇寬敞且平坦的滑雪斜坡，其傾斜角度約為6%到25%，非常適合初學者進行練習。
+              初學者建議選擇寬敞且平坦的滑雪斜坡，
+              <br />
+              其傾斜角度約為6%到25%，
+              <br />
+              非常適合初學者進行練習。
             </p>
           </div>
           <div className="level-intro2">
             <figure className="r1">
-              <img src="./images/p3-red.svg" alt="紅線" />
+              <img src={p3RedImage} alt="紅線" />
             </figure>
             <h3>紅線 中級雪道</h3>
             <p className="intro-jp">
-              在日本多數滑雪場中，有40%到60%的區域被劃分為中級難度的雪道。
+              在日本多數滑雪場中，
+              <br />
+              有40%到60%的區域
+              <br />
+              被劃分為中級難度的雪道。
             </p>
           </div>
 
           <div className="level-intro3">
             <figure className="b1">
-              <img src="./images/p3-black.svg" alt="黑線" />
+              <img src={p3BlackImage} alt="黑線" />
             </figure>
             <h3>黑線 高級雪道</h3>
             <p className="intro-jp">
-              黑線是在雪道中最具挑戰性的路線，其路線相對較為陡峭，雪道的難度取決於目標受眾。
+              黑線是在雪道中最具挑戰性的路線，
+              <br />
+              其路線相對較為陡峭，
+              <br />
+              雪道的難度取決於目標受眾。
             </p>
           </div>
         </div>
@@ -126,23 +151,23 @@ const IntroPage = () => {
       <section id="level2">
         <div className="pic-title2">
           <figure className="intro-title2">
-            <img src="./images/p4-europe.svg" alt="歐洲" />
+            <img src={p4EuropeImage} alt="歐洲" />
           </figure>
           <figure className="title2-1">
-            <img src="./images/p4-level.svg" alt="雪道分級" />
+            <img src={p4LevelImage} alt="雪道分級" />
           </figure>
         </div>
         <div className="intro-text">
           <div className="level2-intro1">
             <figure className="g2">
-              <img src="./images/p4-Green circle.svg" alt="綠線" />
+              <img src={p4GreenCircleImage} alt="綠線" />
             </figure>
             <h3>綠線雪道</h3>
             <p className="intro-p">初學者練習的雪道，雪道坡度平緩。</p>
           </div>
           <div className="level2-intro2">
             <figure className="b2">
-              <img src="./images/p4-Blue square.svg" alt="藍線" />
+              <img src={p4BlueSquareImage} alt="藍線" />
             </figure>
             <h3>藍線雪道</h3>
             <p className="intro-p">
@@ -151,7 +176,7 @@ const IntroPage = () => {
           </div>
           <div className="level2-intro3">
             <figure className="r2">
-              <img src="./images/p4-Red rectangle.svg" alt="紅線" />
+              <img src={p4RedRectangleImage} alt="紅線" />
             </figure>
             <h3>紅線雪道</h3>
             <p className="intro-p">
@@ -160,7 +185,7 @@ const IntroPage = () => {
           </div>
           <div className="level2-intro4">
             <figure className="bl2">
-              <img src="./images/p4-Black diamond.svg" alt="黑線" />
+              <img src={p4BlackDiamondImage} alt="黑線" />
             </figure>
             <h3>黑線雪道</h3>
             <p className="intro-p">
@@ -169,7 +194,7 @@ const IntroPage = () => {
           </div>
           <div className="level2-intro5">
             <figure className="db2">
-              <img src="./images/p4-Double black diamond.svg" alt="雙黑線" />
+              <img src={p4DoubleBlackDiamondImage} alt="雙黑線" />
             </figure>
             <h3>雙黑線雪道</h3>
             <p className="intro-p">

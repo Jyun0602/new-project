@@ -134,3 +134,48 @@
 .replycontent {
     margin-left: 100px;
 }
+
+@media(max-width:640px) {
+
+    .comment-name {
+        width: 350px;
+    }
+
+    .textarea-size {
+        width: 350px !important;
+    }
+
+    .wrapper {
+        width: 350px;
+        height: 260px;
+    }
+
+    .showimage {
+        position: relative;
+        width: 350px;
+        height: 260px;
+    }
+
+    .submit-like1 {
+        position: relative;
+        left: -750px;
+
+    }
+
+    .comment-reply {
+        position: relative;
+        top: 20px;
+    }
+
+    .newreply-text {
+        position: relative;
+        margin-left: 120px;
+        /* margin-left: 295px; */
+    }
+
+    .reply-mesbox {
+        position: relative;
+        left: 156px;
+        top: 16px;
+    }
+}

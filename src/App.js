@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import HomePage from "./pages/HomePage";
 import AreaPage from "./pages/AreaPage";
@@ -15,21 +15,23 @@ import "./styles/Home.css";
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
+        {/* <BrowserRouter> */}
         {/* <canvas id="canvas"></canvas> */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/" element={<Layout />}>
             {/* <Route path="/Snowfall" element={<Snowfall />} /> */}
-            <Route path="/AreaPage" element={<AreaPage />} />
-            <Route path="/AreaPage/Intro/:id" element={<Intro />} />
+            <Route path="AreaPage" element={<AreaPage />} />
+            <Route path="AreaPage/Intro/:id" element={<Intro />} />
             <Route path="IntroPage" element={<IntroPage />} />
             <Route path="EquipmentPage" element={<EquipmentPage />} />
             <Route path="CommentsPage" element={<CommentsPage />} />
             <Route path="SrcPage" element={<SrcPage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+        {/* </BrowserRouter> */}
+      </HashRouter>
     </>
   );
 }
