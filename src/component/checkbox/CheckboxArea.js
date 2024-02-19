@@ -149,7 +149,14 @@ export default function App() {
   return (
     <>
       <div className="all-checkbox">
-        <div style={{ display: "flex" }}>
+        <div
+          style={{
+            display: "flex",
+            position: "sticky",
+            zIndex: 10,
+            top: "100px",
+          }}
+        >
           {areaList.map((item) => (
             <div key={item}>
               <input
@@ -164,7 +171,14 @@ export default function App() {
             </div>
           ))}
         </div>
-        <div style={{ display: "flex" }}>
+        <div
+          style={{
+            display: "flex",
+            position: "sticky",
+            zIndex: 10,
+            top: "116px",
+          }}
+        >
           {levelList.map((item) => (
             <div key={item}>
               <input

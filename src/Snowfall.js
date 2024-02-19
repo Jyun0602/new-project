@@ -156,8 +156,8 @@ const Snowfall = () => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
-    const canvasWidth = 1199;
-    const canvasHeight = 800;
+    const canvasWidth = 2599;
+    const canvasHeight = 500;
     canvas.width = canvasWidth;
     canvas.height = canvasHeight;
 
@@ -229,7 +229,20 @@ const Snowfall = () => {
     return () => clearInterval(animationLoop);
   }, []);
 
-  return <canvas ref={canvasRef} id="canvas"></canvas>;
+  return (
+    <canvas
+      style={{
+        position: "fixed",
+        top: 0,
+        bottom: 0,
+        left: 0,
+        right: 0,
+        zIndex: 1,
+      }}
+      ref={canvasRef}
+      id="canvas"
+    ></canvas>
+  );
 };
 
 export default Snowfall;

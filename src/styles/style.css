@@ -173,7 +173,19 @@ body {
 a {
     display: block;
     text-decoration: none;
-    color: transparent;
+    /* color: transparent; */
+}
+
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:link:active,
+a:visited:active {
+    color: inherit;
 }
 
 img {

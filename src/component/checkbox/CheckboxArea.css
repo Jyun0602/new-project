@@ -26,6 +26,8 @@
     /* position: relative; */
     /* top: 120px */
     background-color: #BBD0EB;
+    overflow-y: auto;
+    height: 880px;
 }
 
 .content-box {
