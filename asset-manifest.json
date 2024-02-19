@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/new-project/static/css/main.dba93c10.css",
-    "main.js": "/new-project/static/js/main.a608cfaf.js",
+    "main.css": "/new-project/static/css/main.c33b9c21.css",
+    "main.js": "/new-project/static/js/main.6fdde389.js",
     "static/media/GenSenRounded-B.ttc": "/new-project/static/media/GenSenRounded-B.3a6f48270731b2cdbde8.ttc",
     "static/media/GenSenRounded-M.ttc": "/new-project/static/media/GenSenRounded-M.e59525b4eb7c619bfcdf.ttc",
     "static/media/equipment-Bg.svg": "/new-project/static/media/equipment-Bg.dc01954f84a95bb1ceea.svg",
     "static/media/index_bg.svg": "/new-project/static/media/index_bg.b4e434d1e1fd918260a7.svg",
+    "static/media/pic1-bg.svg": "/new-project/static/media/pic1-bg.daedbe3cb72d1b553e2e.svg",
     "static/media/btn-area.svg": "/new-project/static/media/btn-area.e1531bf7a31c7c3ba0b9c0b5b3d47ee8.svg",
     "static/media/intro-bg.svg": "/new-project/static/media/intro-bg.02b1d59a9e8144f85ffe7260386da078.svg",
     "static/media/btn-equipment.svg": "/new-project/static/media/btn-equipment.4264789963196adfb836b158a17b75fc.svg",
@@ -15,12 +16,17 @@
     "static/media/tool-sb.svg": "/new-project/static/media/tool-sb.b4dd9fab16b2dd0283da34cb6ba226ff.svg",
     "static/media/Accessories-sb.svg": "/new-project/static/media/Accessories-sb.49ec78b6e6f8dab4fea88c9c9ed39cee.svg",
     "static/media/Outer-sb.svg": "/new-project/static/media/Outer-sb.fa3da7f75ff0a0b8bf1bfd2d932bfdc7.svg",
+    "static/media/pic2-bg.svg": "/new-project/static/media/pic2-bg.0d37b9d3b17cafe64ca2.svg",
+    "static/media/pic6-bg.svg": "/new-project/static/media/pic6-bg.8e92749bf0bb0b733398.svg",
     "static/media/tool-ski.svg": "/new-project/static/media/tool-ski.ab7df918ca402b2e3082af56daa9dfa5.svg",
+    "static/media/pic4-bg.svg": "/new-project/static/media/pic4-bg.ea06ca8e6b35d37153a9.svg",
     "static/media/Accessories-ski.svg": "/new-project/static/media/Accessories-ski.390a2f68d498ac4685530812ead57220.svg",
     "static/media/pic_2.jpg": "/new-project/static/media/pic_2.3e5bd9ffdbf6c8492512.jpg",
     "static/media/pic_6.jpg": "/new-project/static/media/pic_6.a7be988ad13513b2019f.jpg",
     "static/media/Outer-ski.svg": "/new-project/static/media/Outer-ski.287e38d0e0acd5d977e6f7991fa48d6f.svg",
+    "static/media/pic3-bg.svg": "/new-project/static/media/pic3-bg.2f167f8657f92f45374b.svg",
     "static/media/pic_4.jpg": "/new-project/static/media/pic_4.634099cd0e3bcffd1d0d.jpg",
+    "static/media/pic5-bg.svg": "/new-project/static/media/pic5-bg.0ab65645b61de1147f43.svg",
     "static/media/intro-ski.jpg": "/new-project/static/media/intro-ski.62263cf9e4a6539fc264.jpg",
     "static/media/pic_3.jpg": "/new-project/static/media/pic_3.58423771050b960cff83.jpg",
     "static/media/pic_5.jpg": "/new-project/static/media/pic_5.9f65376927f22e5a3abd.jpg",
@@ -53,11 +59,11 @@
     "static/media/p3-green.svg": "/new-project/static/media/p3-green.7fd3d253d63d25f34871e220ad6e99bb.svg",
     "static/media/p3-red.svg": "/new-project/static/media/p3-red.cfaf0c504825cb5061a8d3e81a91751d.svg",
     "static/media/p3-black.svg": "/new-project/static/media/p3-black.c8f10e90302d9381ab46887a4dbfd66b.svg",
-    "main.dba93c10.css.map": "/new-project/static/css/main.dba93c10.css.map",
-    "main.a608cfaf.js.map": "/new-project/static/js/main.a608cfaf.js.map"
+    "main.c33b9c21.css.map": "/new-project/static/css/main.c33b9c21.css.map",
+    "main.6fdde389.js.map": "/new-project/static/js/main.6fdde389.js.map"
   },
   "entrypoints": [
-    "static/css/main.dba93c10.css",
-    "static/js/main.a608cfaf.js"
+    "static/css/main.c33b9c21.css",
+    "static/js/main.6fdde389.js"
   ]
 }
