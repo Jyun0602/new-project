@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-project/static/css/main.c33b9c21.css",
-    "main.js": "/new-project/static/js/main.6fdde389.js",
+    "main.css": "/new-project/static/css/main.be03dc46.css",
+    "main.js": "/new-project/static/js/main.1911c31d.js",
     "static/media/GenSenRounded-B.ttc": "/new-project/static/media/GenSenRounded-B.3a6f48270731b2cdbde8.ttc",
     "static/media/GenSenRounded-M.ttc": "/new-project/static/media/GenSenRounded-M.e59525b4eb7c619bfcdf.ttc",
     "static/media/equipment-Bg.svg": "/new-project/static/media/equipment-Bg.dc01954f84a95bb1ceea.svg",
@@ -59,11 +59,11 @@
     "static/media/p3-green.svg": "/new-project/static/media/p3-green.7fd3d253d63d25f34871e220ad6e99bb.svg",
     "static/media/p3-red.svg": "/new-project/static/media/p3-red.cfaf0c504825cb5061a8d3e81a91751d.svg",
     "static/media/p3-black.svg": "/new-project/static/media/p3-black.c8f10e90302d9381ab46887a4dbfd66b.svg",
-    "main.c33b9c21.css.map": "/new-project/static/css/main.c33b9c21.css.map",
-    "main.6fdde389.js.map": "/new-project/static/js/main.6fdde389.js.map"
+    "main.be03dc46.css.map": "/new-project/static/css/main.be03dc46.css.map",
+    "main.1911c31d.js.map": "/new-project/static/js/main.1911c31d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c33b9c21.css",
-    "static/js/main.6fdde389.js"
+    "static/css/main.be03dc46.css",
+    "static/js/main.1911c31d.js"
   ]
 }
