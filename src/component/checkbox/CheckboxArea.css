@@ -28,6 +28,7 @@
     background-color: #BBD0EB;
     overflow-y: auto;
     height: 880px;
+    padding: 0 1rem;
 }
 
 .content-box {
@@ -55,8 +56,9 @@
     mask-image: url(../../images/areamask2.png);
     mask-repeat: no-repeat;
     mask-size: 100%;
-    width: 500px;
-    height: 300px;
+    margin-bottom: 30px;
+    /* width: 500px; */
+    /* height: 300px; */
 
     /* margin-top: -44px; */
 

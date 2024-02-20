@@ -36,7 +36,7 @@ const Intro = () => {
                 12歲（含）以下兒童可免費搭乘
               </p>
 
-              <h4 className="text-box2">官網</h4>
+              <h4 className="text-official">官網</h4>
               <a
                 href="https://www.princehotels.co.jp/ski/manza/winter/"
                 target="_blank"
@@ -124,7 +124,7 @@ const Intro = () => {
                 小學生: ¥2,200
               </p>
 
-              <h4 className="text-box2">官網</h4>
+              <h4 className="text-official">官網</h4>
               <a
                 href="https://www.marunuma.jp/winter/"
                 target="_blank"
@@ -200,7 +200,7 @@ const Intro = () => {
                 年長者:¥4,300
               </p>
 
-              <h4 className="text-box2">官網</h4>
+              <h4 className="text-official">官網</h4>
               <a
                 href="https://jkokusai.co.jp/ski/"
                 target="_blank"
@@ -279,14 +279,14 @@ const Intro = () => {
                 年長者:¥4,300
               </p>
 
-              <h4 className="text-box2" style={{ color: "#5265C4" }}>
+              <h4 className="text-official" style={{ color: "#5265C4" }}>
                 官網
               </h4>
               <a
                 href="https://iwa-ppara.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "white" }}
+                style={{ color: "#5265C4" }}
                 className="official"
               >
                 點此前往官網查詢最新資訊
@@ -307,7 +307,7 @@ const Intro = () => {
               {/* </button> */}
             </div>
             <div className="intro-col3" style={{ color: "#5265C4" }}>
-              <div className="date" style={{ color: "#5265C4" }}>
+              <div className="date" style={{ color: "#bbd0eb" }}>
                 <p> 12/23</p>
                 <p className="year" style={{ fontFamily: "GenSenRounded-M" }}>
                   2023
@@ -362,7 +362,7 @@ const Intro = () => {
                 年長者:¥4,800
               </p>
 
-              <h4 className="text-box2">官網</h4>
+              <h4 className="text-official">官網</h4>
               <a
                 href="https://sugadaira-snowresort.com/"
                 target="_blank"
@@ -439,7 +439,7 @@ const Intro = () => {
                 年長者:¥5,500
               </p>
 
-              <h4 className="text-box2">官網</h4>
+              <h4 className="text-official">官網</h4>
               <a
                 href="https://www.princehotels.co.jp/ski/karuizawa/winter/"
                 target="_blank"

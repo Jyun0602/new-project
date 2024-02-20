@@ -155,6 +155,7 @@ export default function App() {
             position: "sticky",
             zIndex: 10,
             top: "100px",
+            marginBottom: "15px",
           }}
         >
           {areaList.map((item) => (

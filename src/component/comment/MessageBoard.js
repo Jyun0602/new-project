@@ -261,10 +261,8 @@ const MessageBoard = () => {
       <ul className="newreply">
         {messages.map((message) => (
           <li key={message.id}>
-            <strong className="newreply-text" style={{ marginLeft: "200px" }}>
-              {message.author}
-            </strong>
-            : {message.content} ({message.timestamp}){/* 顯示圖片 */}
+            <strong className="newreply-text">{message.author}</strong>:{" "}
+            {message.content} ({message.timestamp}){/* 顯示圖片 */}
             {message.image && (
               <img
                 src={URL.createObjectURL(message.image)}

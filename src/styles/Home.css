@@ -27,27 +27,38 @@
     position: relative;
     width: 615px;
     height: 458px;
-    margin: 380px 0 0 0px
+    /* margin: 380px 0 0 0px */
+    margin-top: 530px;
 }
 
 .btn2 {
-    width: 110px;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    /* width: 110px;
     height: 160px;
     margin: -15% 0 0 55%;
+ */
 }
 
 .btn3 {
+    position: absolute;
+    right: 330px;
+    bottom: 400px;
     width: 297px;
     height: 396px;
-    margin: -720px 0 0 690px;
+    /* margin: -720px 0 0 690px; */
     z-index: 997;
 
 }
 
 .btn4 {
-    width: 320px;
-    height: 360px;
-    margin: -30px 0 0 1270px;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    /* width: 320px; */
+    /* height: 360px; */
+    /* margin: -30px 0 0 1270px; */
 }
 
 /* 文字懸浮 */
@@ -80,7 +91,7 @@ section .textBtn2 {
     position: absolute;
     z-index: 999;
     width: 160px;
-    height: 200px;
+    /* height: 200px; */
     transition: .35s;
     /* opacity: 0; */
 
@@ -205,46 +216,54 @@ section .textBtn4:hover {
 @media(max-width:640px) {
     .btn1 {
         position: relative;
-        width: 615px;
-        height: 458px;
-        margin: 350px 0 0 0px
+        width: 316px;
+        top: 156px;
+        /* height: 458px; */
     }
 
     .btn2 {
         width: 110px;
         height: 160px;
-        margin: -225px 0 0 65%;
+        /* margin: -225px 0 0 65%; */
     }
 
     .btn3 {
-        width: 297px;
-        height: 396px;
-        margin: -720px 0 0 300px;
+        position: absolute;
+        top: 100px;
+        left: 167px;
+        width: 210px;
+        height: 379px;
+        /* margin: -720px 0 0 300px; */
         z-index: 997;
 
     }
 
     .btn4 {
-        width: 254px;
-        height: 360px;
-        margin: 100px 0 0 8px;
+        position: absolute;
+        width: 150px;
+        bottom: 20%;
+        right: 0;
+        /* height: 360px; */
+        /* margin: 100px 0 0 8px; */
     }
 
     section .textBtn1 {
         position: absolute;
-        z-index: 999;
+        /* z-index: 999; */
         width: 184px;
-        height: 200px;
-        transition: .35s;
-        margin-left: 139px;
-        margin-top: 85px;
+        bottom: 0;
+        /* height: 200px; */
+        /* transition: .35s; */
+        /* margin-left: 139px; */
+        /* margin-top: 85px; */
     }
 
     section .textBtn2 {
         position: absolute;
         z-index: 999;
-        width: 160px;
-        height: 200px;
+        width: 125px;
+        top: 87px;
+        /* height: 200px; */
         transition: .35s;
 
 
@@ -261,10 +280,11 @@ section .textBtn4:hover {
     }
 
     section .textBtn4 {
-        position: absolute;
+        /* position: absolute; */
         z-index: 999;
-        width: 160px;
-        height: 200px;
+        width: 84px;
+        /* height: 200px; */
         transition: .35s;
+        top: -4px;
     }
 }
