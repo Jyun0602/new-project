@@ -1,17 +1,12 @@
 {
   "files": {
-    "main.css": "/new-project/static/css/main.be03dc46.css",
-    "main.js": "/new-project/static/js/main.1911c31d.js",
+    "main.css": "/new-project/static/css/main.02a9cdd4.css",
+    "main.js": "/new-project/static/js/main.e8f478e5.js",
     "static/media/GenSenRounded-B.ttc": "/new-project/static/media/GenSenRounded-B.3a6f48270731b2cdbde8.ttc",
     "static/media/GenSenRounded-M.ttc": "/new-project/static/media/GenSenRounded-M.e59525b4eb7c619bfcdf.ttc",
-    "static/media/equipment-Bg.svg": "/new-project/static/media/equipment-Bg.dc01954f84a95bb1ceea.svg",
-    "static/media/index_bg.svg": "/new-project/static/media/index_bg.b4e434d1e1fd918260a7.svg",
-    "static/media/pic1-bg.svg": "/new-project/static/media/pic1-bg.daedbe3cb72d1b553e2e.svg",
     "static/media/btn-area.svg": "/new-project/static/media/btn-area.e1531bf7a31c7c3ba0b9c0b5b3d47ee8.svg",
-    "static/media/intro-bg.svg": "/new-project/static/media/intro-bg.02b1d59a9e8144f85ffe7260386da078.svg",
     "static/media/btn-equipment.svg": "/new-project/static/media/btn-equipment.4264789963196adfb836b158a17b75fc.svg",
     "static/media/btn-msg.svg": "/new-project/static/media/btn-msg.96275eb48175deace9cce07afd903d09.svg",
-    "static/media/pic_1.jpg": "/new-project/static/media/pic_1.b737ae8fe88459c89bfd.jpg",
     "static/media/Logo.png": "/new-project/static/media/Logo.822203479ab54a6ec2f6.png",
     "static/media/tool-sb.svg": "/new-project/static/media/tool-sb.b4dd9fab16b2dd0283da34cb6ba226ff.svg",
     "static/media/Accessories-sb.svg": "/new-project/static/media/Accessories-sb.49ec78b6e6f8dab4fea88c9c9ed39cee.svg",
@@ -20,17 +15,21 @@
     "static/media/pic6-bg.svg": "/new-project/static/media/pic6-bg.8e92749bf0bb0b733398.svg",
     "static/media/tool-ski.svg": "/new-project/static/media/tool-ski.ab7df918ca402b2e3082af56daa9dfa5.svg",
     "static/media/pic4-bg.svg": "/new-project/static/media/pic4-bg.ea06ca8e6b35d37153a9.svg",
+    "static/media/pic_1.jpg": "/new-project/static/media/pic_1.b737ae8fe88459c89bfd.jpg",
     "static/media/Accessories-ski.svg": "/new-project/static/media/Accessories-ski.390a2f68d498ac4685530812ead57220.svg",
     "static/media/pic_2.jpg": "/new-project/static/media/pic_2.3e5bd9ffdbf6c8492512.jpg",
     "static/media/pic_6.jpg": "/new-project/static/media/pic_6.a7be988ad13513b2019f.jpg",
     "static/media/Outer-ski.svg": "/new-project/static/media/Outer-ski.287e38d0e0acd5d977e6f7991fa48d6f.svg",
+    "static/media/pic1-bg.jpg": "/new-project/static/media/pic1-bg.00b73ea040a1a5e65cd9.jpg",
     "static/media/pic3-bg.svg": "/new-project/static/media/pic3-bg.2f167f8657f92f45374b.svg",
     "static/media/pic_4.jpg": "/new-project/static/media/pic_4.634099cd0e3bcffd1d0d.jpg",
     "static/media/pic5-bg.svg": "/new-project/static/media/pic5-bg.0ab65645b61de1147f43.svg",
     "static/media/intro-ski.jpg": "/new-project/static/media/intro-ski.62263cf9e4a6539fc264.jpg",
     "static/media/pic_3.jpg": "/new-project/static/media/pic_3.58423771050b960cff83.jpg",
+    "static/media/index_bg.jpg": "/new-project/static/media/index_bg.2acc72397f0df8332096.jpg",
     "static/media/pic_5.jpg": "/new-project/static/media/pic_5.9f65376927f22e5a3abd.jpg",
     "static/media/level-bg.jpg": "/new-project/static/media/level-bg.d1e8af8a67d7d750ae7d.jpg",
+    "static/media/equipment-Bg.jpg": "/new-project/static/media/equipment-Bg.86e44daf703c965e3656.jpg",
     "static/media/europe-level-bg.jpg": "/new-project/static/media/europe-level-bg.73ef646c36bcb73a6874.jpg",
     "static/media/equipment-people-sb.svg": "/new-project/static/media/equipment-people-sb.571002056871c131960986174958e906.svg",
     "static/media/equipment-people-ski.svg": "/new-project/static/media/equipment-people-ski.bd3c9aa294b4a51aa3fc21070d370277.svg",
@@ -46,6 +45,7 @@
     "static/media/text-intro.svg": "/new-project/static/media/text-intro.dab7de6f1517ff169d2c0eff3b58147c.svg",
     "static/media/p4-europe.svg": "/new-project/static/media/p4-europe.fa6dd48fedc8200faa15d8e9513e31b1.svg",
     "static/media/btn-intro.svg": "/new-project/static/media/btn-intro.c835e6942f7892d44a8251715a89bb19.svg",
+    "static/media/intro-bg.jpg": "/new-project/static/media/intro-bg.13ffe080935ebe99eb03.jpg",
     "static/media/text-accessories.svg": "/new-project/static/media/text-accessories.5d952d3ef29c7db33cfd77cf6a905633.svg",
     "static/media/text-tool.svg": "/new-project/static/media/text-tool.4443375268f591b47692e4924e8fa474.svg",
     "static/media/text-cloth.svg": "/new-project/static/media/text-cloth.6dbfa4ccca3f6772459f1ed3e256c346.svg",
@@ -59,11 +59,11 @@
     "static/media/p3-green.svg": "/new-project/static/media/p3-green.7fd3d253d63d25f34871e220ad6e99bb.svg",
     "static/media/p3-red.svg": "/new-project/static/media/p3-red.cfaf0c504825cb5061a8d3e81a91751d.svg",
     "static/media/p3-black.svg": "/new-project/static/media/p3-black.c8f10e90302d9381ab46887a4dbfd66b.svg",
-    "main.be03dc46.css.map": "/new-project/static/css/main.be03dc46.css.map",
-    "main.1911c31d.js.map": "/new-project/static/js/main.1911c31d.js.map"
+    "main.02a9cdd4.css.map": "/new-project/static/css/main.02a9cdd4.css.map",
+    "main.e8f478e5.js.map": "/new-project/static/js/main.e8f478e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.be03dc46.css",
-    "static/js/main.1911c31d.js"
+    "static/css/main.02a9cdd4.css",
+    "static/js/main.e8f478e5.js"
   ]
 }
