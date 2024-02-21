@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new-project/static/css/main.02a9cdd4.css",
+    "main.css": "/new-project/static/css/main.98c86ff7.css",
     "main.js": "/new-project/static/js/main.e8f478e5.js",
     "static/media/GenSenRounded-B.ttc": "/new-project/static/media/GenSenRounded-B.3a6f48270731b2cdbde8.ttc",
     "static/media/GenSenRounded-M.ttc": "/new-project/static/media/GenSenRounded-M.e59525b4eb7c619bfcdf.ttc",
@@ -59,11 +59,11 @@
     "static/media/p3-green.svg": "/new-project/static/media/p3-green.7fd3d253d63d25f34871e220ad6e99bb.svg",
     "static/media/p3-red.svg": "/new-project/static/media/p3-red.cfaf0c504825cb5061a8d3e81a91751d.svg",
     "static/media/p3-black.svg": "/new-project/static/media/p3-black.c8f10e90302d9381ab46887a4dbfd66b.svg",
-    "main.02a9cdd4.css.map": "/new-project/static/css/main.02a9cdd4.css.map",
+    "main.98c86ff7.css.map": "/new-project/static/css/main.98c86ff7.css.map",
     "main.e8f478e5.js.map": "/new-project/static/js/main.e8f478e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a9cdd4.css",
+    "static/css/main.98c86ff7.css",
     "static/js/main.e8f478e5.js"
   ]
 }
