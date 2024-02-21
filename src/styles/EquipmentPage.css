@@ -654,8 +654,9 @@ main {
         width: 170px;
         height: 300px;
         /* margin: 442px 0px 0px 402px; */
-        bottom: -2600px;
+        /* bottom: -2600px; */
         right: 206px;
+        margin-top: 430px;
 
     }
 
@@ -674,5 +675,100 @@ main {
         height: auto;
     }
 
+
+}
+
+@media(max-width:390px) {
+
+    #equipment1,
+    #equipment2,
+    #equipment3,
+    #equipment4 {
+        position: relative;
+    }
+
+    #equipment3 {
+        height: 100vh;
+    }
+
+    .title1 {
+        margin: 0 0 0 53px;
+    }
+
+    .title2 {
+        margin: 422px 0 -583px 53px;
+    }
+
+    .title3 {
+        margin: 588px 0px -583px 288px;
+    }
+
+    .title4 {
+        margin-top: 383px !important;
+    }
+
+    .people-ski {
+        position: absolute;
+        bottom: 0;
+        /* width: 200px;
+        height: 615px;
+        margin-left: 230px; */
+    }
+
+    .people-sb {
+        position: absolute;
+        bottom: 0;
+        /* width: 340px;
+        height: 610px;
+        margin: -525px 0px 0px 354px; */
+    }
+
+    .e-inside {
+        position: absolute;
+        top: 578px;
+        width: 70%;
+        margin-left: 53px;
+    }
+
+    .e-outer {
+        position: absolute;
+        bottom: 359px;
+    }
+
+    .outer,
+    .bottom {
+        width: 100%;
+        height: 183px
+    }
+
+    .inside {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 62px;
+
+    }
+
+    .socks {
+        height: 125px;
+        width: 100%;
+    }
+
+    .e-acc {
+        position: absolute;
+        top: 0;
+    }
+
+    .helmet,
+    .goggles,
+    .gloves {
+        width: 100%;
+    }
+
+    .people-ski2 {
+        position: absolute;
+        left: 122px;
+        margin-top: 447px;
+        width: 169px;
+    }
 
 }

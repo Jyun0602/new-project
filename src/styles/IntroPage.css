@@ -403,4 +403,8 @@ p {
         flex-direction: column;
         opacity: .7;
     }
+
+    .pic-title2 {
+        margin: 53px 0 0 70px;
+    }
 }
