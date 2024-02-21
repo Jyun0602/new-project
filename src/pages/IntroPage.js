@@ -1,9 +1,10 @@
-import React from "react";
+// import React from "react";
+import React, { useEffect } from "react";
 import "../styles/IntroPage.css";
 import ScrollToTopButton from "../component/ScrollToTop/ScrollToTopButton";
 import introTextImage from "../images/intro-text.svg";
 import introPic1Image from "../images/intro-pic1.jpg";
-import introBgImage from "../images/intro-bg.svg";
+import introBgImage from "../images/intro-bg.jpg";
 import introSkiImage from "../images/intro-ski.jpg";
 import introSbImage from "../images/intro-sb.jpg";
 import p3JapanImage from "../images/p3-japan.svg";
@@ -19,6 +20,31 @@ import p4RedRectangleImage from "../images/p4-Red rectangle.svg";
 import p4BlackDiamondImage from "../images/p4-Black diamond.svg";
 import p4DoubleBlackDiamondImage from "../images/p4-Double black diamond.svg";
 const IntroPage = () => {
+  useEffect(() => {
+    const imageList = [
+      introTextImage,
+      introPic1Image,
+      introBgImage,
+      introSkiImage,
+      introSbImage,
+      p3JapanImage,
+      p3JapanImage,
+      p3LevelImage,
+      p3GreenImage,
+      p3RedImage,
+      p3BlackImage,
+      p4EuropeImage,
+      p4LevelImage,
+      p4GreenCircleImage,
+      p4BlueSquareImage,
+      p4RedRectangleImage,
+      p4BlackDiamondImage,
+      p4DoubleBlackDiamondImage,
+    ];
+    imageList.forEach((image) => {
+      new Image().src = image;
+    });
+  }, []);
   return (
     <main className="App">
       {/* // page1 */}

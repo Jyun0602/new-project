@@ -98,6 +98,12 @@ const AREAS = [
 ];
 // import { AREAS, levelList, areaList } from "./data";
 export default function App() {
+  useEffect(() => {
+    const imageList = [Pic1, Pic2, Pic3, Pic4, Pic5, Pic6];
+    imageList.forEach((image) => {
+      new Image().src = image;
+    });
+  }, []);
   const [areaData, setAreaData] = useState(AREAS);
   // const [level, setLevel] = useState("");
   const [area, setArea] = useState([]);

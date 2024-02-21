@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+// import React from "react";
 import "../styles/EquipmentPage.css";
 import ScrollToTopButton from "../component/ScrollToTop/ScrollToTopButton";
 import equipmentTextImage from "../images/equipment-text.svg";
@@ -15,6 +16,25 @@ import toolSkiImage from "../images/tool-ski.svg";
 import toolSbImage from "../images/tool-sb.svg";
 
 const EquipmentPage = () => {
+  useEffect(() => {
+    const imageList = [
+      equipmentTextImage,
+      equipmentPeopleSkiImage,
+      equipmentPeopleSbImage,
+      textClothImage,
+      OuterSkiImage,
+      OuterSbImage,
+      textAccessoriesImage,
+      AccessoriesSkiImage,
+      AccessoriesSbImage,
+      textToolImage,
+      toolSkiImage,
+      toolSbImage,
+    ];
+    imageList.forEach((image) => {
+      new Image().src = image;
+    });
+  }, []);
   return (
     <main>
       {/* 最裡層 */}

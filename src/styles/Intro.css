@@ -1,7 +1,7 @@
 .text-box1 {
     position: relative;
     background-size: cover;
-    background-image: url(../images/pic1-bg.svg);
+    background-image: url(../images/pic1-bg.jpg);
     background-position: center;
     background-attachment: fixed;
 }
@@ -80,6 +80,7 @@ p {
     align-items: flex-end;
     position: relative;
     top: 50%;
+    padding: 0 1rem;
 
 }
 

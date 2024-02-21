@@ -1,17 +1,10 @@
-// 只篩地區
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../../styles/Intro.css";
-// import { type } from "@testing-library/user-event/dist/type";
-// import { useEffect, useState } from "react";
 
 const Intro = () => {
   const { id } = useParams();
-  // console.log(typeof id);
   let content;
-  //   let imgSrc;
-  // const [content, setContent] = useState(null);
-
   if (id === "1") {
     content = (
       <main>
@@ -48,9 +41,6 @@ const Intro = () => {
               </a>
             </div>
             <div className="intro-col2">
-              {/* <button className="btn-5"> */}
-              {/* <div className="before"></div>
-                <div className="after"></div> */}
               <a
                 href="https://maps.app.goo.gl/PXSakYMtbzSB4jTe8"
                 target="_blank"
@@ -59,7 +49,6 @@ const Intro = () => {
               >
                 Google Map
               </a>
-              {/* </button> */}
             </div>
             <div className="intro-col3">
               <div className="date">
@@ -85,17 +74,6 @@ const Intro = () => {
                 </p>
               </div>
             </div>
-            {/* <div className="col2">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.610458498417!2d138.50364091192662!3d36.63576217217902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601deec277eaba2d%3A0xc170060994d13529!2z6JCs5bqn5rqr5rOJ5ruR6Zuq5aC0!5e0!3m2!1szh-TW!2stw!4v1706969116323!5m2!1szh-TW!2stw"
-                width="400"
-                height="300"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div> */}
           </div>
         </section>
       </main>
@@ -144,7 +122,6 @@ const Intro = () => {
               >
                 Google Map
               </a>
-              {/* </button> */}
             </div>
             <div className="intro-col3">
               <div className="date">
@@ -212,9 +189,6 @@ const Intro = () => {
               </a>
             </div>
             <div className="intro-col2">
-              {/* <button className="btn-5"> */}
-              {/* <div className="before"></div>
-                <div className="after"></div> */}
               <a
                 href="https://maps.app.goo.gl/xWYcSjuWiFknKGC6A"
                 target="_blank"
@@ -223,7 +197,6 @@ const Intro = () => {
               >
                 Google Map
               </a>
-              {/* </button> */}
             </div>
             <div className="intro-col3">
               <div className="date">
@@ -293,9 +266,6 @@ const Intro = () => {
               </a>
             </div>
             <div className="intro-col2">
-              {/* <button className="btn-5"> */}
-              {/* <div className="before"></div>
-                <div className="after"></div> */}
               <a
                 href="https://maps.app.goo.gl/vxntxtm7TgVHvyNi8"
                 target="_blank"
@@ -304,7 +274,6 @@ const Intro = () => {
               >
                 Google Map
               </a>
-              {/* </button> */}
             </div>
             <div className="intro-col3" style={{ color: "#5265C4" }}>
               <div className="date" style={{ color: "#bbd0eb" }}>
@@ -382,7 +351,6 @@ const Intro = () => {
               >
                 Google Map
               </a>
-              {/* </button> */}
             </div>
             <div className="intro-col3">
               <div className="date">
@@ -459,7 +427,6 @@ const Intro = () => {
               >
                 Google Map
               </a>
-              {/* </button> */}
             </div>
             <div className="intro-col3">
               <div className="date">

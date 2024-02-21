@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import React, { useEffect } from "react";
 import "../styles/SrcPage.css";
 import pic1Image from "../images/pic_1.jpg";
 import pic2Image from "../images/pic_2.jpg";
@@ -8,6 +9,19 @@ import pic5Image from "../images/pic_5.jpg";
 import pic6Image from "../images/pic_6.jpg";
 
 const SrcPage = () => {
+  useEffect(() => {
+    const imageList = [
+      pic1Image,
+      pic2Image,
+      pic3Image,
+      pic4Image,
+      pic5Image,
+      pic6Image,
+    ];
+    imageList.forEach((image) => {
+      new Image().src = image;
+    });
+  }, []);
   return (
     <main>
       <section className="piclist">

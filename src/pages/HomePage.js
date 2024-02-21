@@ -1,6 +1,7 @@
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
-import Snowfall from "../Snowfall";
+// import Snowfall from "../Snowfall";
 import textJapanAreaImage from "../images/text-japan-area.svg";
 import btnAreaImage from "../images/btn-area.svg";
 import textIntroImage from "../images/text-intro.svg";
@@ -11,6 +12,21 @@ import textCommentsImage from "../images/text-comments.svg";
 import btnMsgImage from "../images/btn-msg.svg";
 
 export default function HomePage() {
+  useEffect(() => {
+    const imageList = [
+      textJapanAreaImage,
+      btnAreaImage,
+      textIntroImage,
+      btnIntroImage,
+      textEquitmentImage,
+      btnEquipmentImage,
+      textCommentsImage,
+      btnMsgImage,
+    ];
+    imageList.forEach((image) => {
+      new Image().src = image;
+    });
+  }, []);
   return (
     <>
       <Navbar />
